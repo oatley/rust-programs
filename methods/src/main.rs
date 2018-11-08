@@ -28,7 +28,7 @@ fn main() {
     println!("The area of rect is {:?} square pixels", rect3.area());
     println!("Can rect1 hold rect2? {} ", rect1.can_hold(&rect2));
     println!("Can rect1 hold rect3? {} ", rect1.can_hold(&rect3));
-    // This is a accociated functions, usually used for constructors, does not pass or use self
+    // This is a accociated functions(not a method), usually used for constructors, does not pass or use self
     let square = Rectangle::square(10);
     println!("The area of rect is {:?} square pixels", square.area());
 
